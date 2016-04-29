@@ -35,10 +35,9 @@ It helps you write applications that behave consistently, run in different envir
 *A live-editing time travel environment for React Native, hybrid, desktop and server side Redux apps based on [Redux DevTools](https://github.com/gaearon/redux-devtools)*
 
 ## Setup
-- Install [Node](https://nodejs.org) for backend server development  
+- Install [Node](https://nodejs.org) for backend server development
 - Install [React Native](http://facebook.github.io/react-native/docs/getting-started.html) for mobile client development
 - Install [React Native Package Manager](https://github.com/rnpm/rnpm) for mobile client development
-
 - Clone react-native-redux-real-world and install node modules:
 ```shell
 $ git clone https://github.com/kkav004/react-native-redux-real-world.git
@@ -69,10 +68,13 @@ $ react-native run-android
 
 ## Remote DevTools
 - Install [RemoteDev](https://chrome.google.com/webstore/detail/remotedev/faicmgpfiaijcedapokpbdejaodbelph) Chrome app
-- Install and start [RemoteDev Server] locally
+- Install and start [RemoteDev Server](https://github.com/zalmoxisus/remotedev-server) locally
 ```shell
 $ npm start-devtools-server
 ```
 
 ## Debugging
 [Access the in-app developer menu](https://facebook.github.io/react-native/docs/debugging.html) and select ``Debug in Chrome``
+
+## Licence
+MIT
