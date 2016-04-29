@@ -10,7 +10,7 @@ A starter boilerplate for a mobile app using React Native and Redux based on [re
 *React Native enables you to build world-class application experiences on native platforms using a consistent developer experience based on JavaScript and React. The focus of React Native is on developer efficiency across all the platforms you care about — learn once, write anywhere. Facebook uses React Native in multiple production apps and will continue investing in React Native.*
 
 This app uses
-- [View](https://facebook.github.io/react-native/docs/view.html) component. It is a container that supports layout with flexbox, style, some touch handling, and accessibility controls, and is designed to be nested inside other views and to have 0 to many children of any type. View maps directly to the native view equivalent on whatever platform React is running on, whether that is a UIView, <div>, android.view, etc.
+- [View](https://facebook.github.io/react-native/docs/view.html) component. It is a container that supports layout with flexbox, style, some touch handling, and accessibility controls, and is designed to be nested inside other views and to have 0 to many children of any type. View maps directly to the native view equivalent on whatever platform React is running on, whether that is a UIView, \<div\>, android.view, etc.
 - [Text](https://facebook.github.io/react-native/docs/text.html) component for displaying text which supports nesting, styling, and touch handling.
 - [StyleSheet](http://facebook.github.io/react-native/docs/stylesheet.html) as UI styling abstraction similar to CSS StyleSheets
 - [AppRegistry](http://facebook.github.io/react-native/docs/appregistry.html) as JS entry point to running this app
