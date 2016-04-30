@@ -4,6 +4,7 @@
 [![devDependency Status](https://david-dm.org/kkav004/react-native-redux-real-world/dev-status.svg?style=flat)](https://david-dm.org/kkav004/react-native-redux-real-world#info=devDependencies)
 
 A starter boilerplate for a mobile app using React Native and Redux based on [real-world](https://github.com/reactjs/redux/tree/master/examples/real-world) Redux web app.
+*This example is dense by design. It covers keeping fetched entities in a normalized cache, implementing a custom middleware for API calls, rendering partially loaded data, pagination, caching responses, displaying error messages, and routing. Additionally, it includes Redux DevTools.*
 
 ## Technology Stack
 ### [react-native](https://facebook.github.io/react-native/)
@@ -51,13 +52,13 @@ $ rnpm install          # install and link dependencies listed in ./package.json
 ## To run
 - Start backend server on port 3000 (hardcoded in server.js)
 ```shell
-$ npm start-backend              
+$ npm run start-backend              
 ```
-- Start lightweight development server required by react-native
+<!-- - Start lightweight React Native Packager server on port 8081
 ```shell
-$ npm start-react-native              
-```
-- For iOS run
+$ npm run start-react-native              
+``` -->
+- For iOS run (this will start rnpm packager server)
 ```shell
 $ react-native run-ios
 ```
@@ -67,10 +68,10 @@ $ react-native run-android
 ```
 
 ## Remote DevTools
-- Install [RemoteDev](https://chrome.google.com/webstore/detail/remotedev/faicmgpfiaijcedapokpbdejaodbelph) Chrome app
-- Install and start [RemoteDev Server](https://github.com/zalmoxisus/remotedev-server) locally
+- Install and start [RemoteDev](https://chrome.google.com/webstore/detail/remotedev/faicmgpfiaijcedapokpbdejaodbelph) Chrome app
+- Install and start [RemoteDev Server](https://github.com/zalmoxisus/remotedev-server) locally on port 8000 (configured in package.json)
 ```shell
-$ npm start-devtools-server
+$ npm run start-devtools-server
 ```
 
 ## Debugging
