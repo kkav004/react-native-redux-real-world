@@ -12,7 +12,7 @@
     "url": "https://github.com/kkav004/react-native-redux-real-world/issues"
   },
   "scripts": {
-    "start-backend": "node server.js",
+    "start-backend": "node ./webapp/server.js",
     "start-devtools-server": "remotedev --hostname=localhost --port=8000"
   },
   "dependencies": {
